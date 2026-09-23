@@ -8,6 +8,7 @@ pnpm-debug.log*
 # JavaScript and TypeScript build output
 dist/
 build/
+.seed-dist/
 coverage/
 *.tsbuildinfo
 
@@ -40,4 +41,3 @@ env/
 .DS_Store
 Thumbs.db
 Desktop.ini
-

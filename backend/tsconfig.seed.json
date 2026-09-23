@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": ".seed-dist",
+    "noEmit": false
+  },
+  "include": [
+    "prisma/seed.ts",
+    "prisma/seed-data.ts",
+    "src/types/food.ts",
+    "src/utils/food-validation.ts"
+  ]
+}
+
