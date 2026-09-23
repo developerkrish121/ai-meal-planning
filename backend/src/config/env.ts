@@ -44,7 +44,8 @@ export const env = Object.freeze({
       : nodeEnv === 'development'
         ? ['http://localhost:5173']
         : [],
+  JWT_SECRET: requireVariable('JWT_SECRET'),
+  JWT_EXPIRES_IN: process.env.JWT_EXPIRES_IN?.trim() || '7d',
 });
 
 export type Environment = typeof env;
-
