@@ -33,6 +33,7 @@ export const PROTEIN_GRAMS_PER_KG = {
 } as const;
 
 export const FAT_CALORIE_RATIO = 0.25;
+export const DAILY_FIBER_TARGET_GRAMS = 30;
 
 export const CALORIES_PER_GRAM = {
   protein: 4,
@@ -49,4 +50,3 @@ export const PROFILE_LIMITS = {
 export type ActivityLevel = keyof typeof ACTIVITY_MULTIPLIERS;
 export type FitnessGoal = keyof typeof GOAL_CALORIE_ADJUSTMENTS;
 export type NutritionGender = 'male' | 'female';
-
