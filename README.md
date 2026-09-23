@@ -45,7 +45,7 @@ npm install
 npm run dev
 ```
 
-The backend defaults to `http://localhost:3000`. Check it at `GET http://localhost:3000/api/health`.
+The backend defaults to `http://localhost:5000`. Check it at `GET http://localhost:5000/api/health`.
 
 Useful backend commands:
 
